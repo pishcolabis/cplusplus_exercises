@@ -10,6 +10,7 @@ Este repositorio contiene material de aprendizaje de C++ organizado en dos categ
 
 ### 📁 Estructura del Repositorio
 
+```
 cplusplus/
 ├── theory/                 # Conceptos teóricos fundamentales
 │   ├── 01_helloworld.cpp           # Programa básico "Hola Mundo"
@@ -28,7 +29,6 @@ cplusplus/
 │   ├── 04_constant.cpp            # Ejercicios sobre constantes
 │   └── 05_namespace.cpp           # Ejercicios sobre espacios de nombres
 └── README.md                      # Este archivo
-```
 ```
 
 ### 🎯 Objetivos de Aprendizaje
@@ -112,6 +112,7 @@ This repository contains C++ learning material organized into two main categorie
 
 ### 📁 Repository Structure
 
+```
 cplusplus/
 ├── theory/                 # Fundamental theoretical concepts
 │   ├── 01_helloworld.cpp           # Basic "Hello World" program
@@ -130,6 +131,7 @@ cplusplus/
 │   ├── 04_constant.cpp            # Exercises about constants
 │   └── 05_namespace.cpp           # Exercises about namespaces
 └── README.md                      # This file
+```
 
 ### 🎯 Learning Objectives
 
