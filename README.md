@@ -21,6 +21,7 @@ cplusplus/
 │   ├── 06_arithmetic_operators.cpp # Operadores aritméticos
 │   ├── 07_type_conversion.cpp     # Conversión de tipos
 │   ├── 08_user_input.cpp          # Entrada de usuario
+│   ├── 09_math_utils.cpp          # Funciones útiles para matemáticas
 │   └── templates.cpp              # Plantillas (templates)
 ├── exercises/                     # Ejercicios prácticos
 │   ├── 01_integers.cpp            # Ejercicios con números enteros
@@ -70,6 +71,7 @@ cplusplus/
 - **`06_arithmetic_operators.cpp`**: Operadores aritméticos
 - **`07_type_conversion.cpp`**: Conversión de tipos
 - **`08_user_input.cpp`**: Entrada de usuario desde consola
+- **`09_math_utils.cpp`**: Funciones útiles para matemáticas
 - **`templates.cpp`**: Introducción a plantillas (templates)
 
 #### Ejercicios (`exercises/`)
@@ -123,6 +125,7 @@ cplusplus/
 │   ├── 06_arithmetic_operators.cpp # Arithmetic operators
 │   ├── 07_type_conversion.cpp     # Type conversion
 │   ├── 08_user_input.cpp          # User input
+│   ├── 09_math_utils.cpp          # Util math functions
 │   └── templates.cpp              # Templates
 ├── exercises/                     # Practical exercises
 │   ├── 01_integers.cpp            # Integer number exercises
@@ -172,6 +175,7 @@ cplusplus/
 - **`06_arithmetic_operators.cpp`**: Arithmetic operators
 - **`07_type_conversion.cpp`**: Type conversion
 - **`08_user_input.cpp`**: User input from console
+- **`09_math_utils.cpp`**: Util math functions
 - **`templates.cpp`**: Introduction to templates
 
 #### Exercises (`exercises/`)
