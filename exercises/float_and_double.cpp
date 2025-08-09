@@ -28,6 +28,9 @@ int main() {
     float volumen_esfera = (4.0 / 3.0) * M_PI * radio * radio * radio;
 
     // Mostrar los resultados con 2 decimales de precisión
+    // std::fixed y std::setprecision(2) se usan para mostrar los números decimales con formato fijo y con 2 decimales.
+    // std::fixed fuerza a que los números se muestren siempre con decimales (no notación científica).
+    // std::setprecision(2) establece que se muestren solo 2 cifras decimales.
     std::cout << std::fixed << std::setprecision(2);
     std::cout << "Área del círculo: " << area_circulo << " centímetros cuadrados" << std::endl;
     std::cout << "Volumen de la esfera: " << volumen_esfera << " centímetros cúbicos" << std::endl;
