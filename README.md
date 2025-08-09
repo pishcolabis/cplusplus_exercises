@@ -10,17 +10,25 @@ Este repositorio contiene material de aprendizaje de C++ organizado en dos categ
 
 ### 📁 Estructura del Repositorio
 
-```
 cplusplus/
 ├── theory/                 # Conceptos teóricos fundamentales
-│   ├── helloworld.cpp     # Programa básico "Hola Mundo"
-│   ├── variables.cpp      # Tipos de datos y variables
-│   └── constants.cpp      # Declaración y uso de constantes
-├── exercises/             # Ejercicios prácticos
-│   ├── integers.cpp       # Ejercicios con números enteros
-│   ├── float_and_double.cpp # Ejercicios con números decimales
-│   └── string_and_char.cpp # Ejercicios con cadenas y caracteres
-└── README.md             # Este archivo
+│   ├── 01_helloworld.cpp           # Programa básico "Hola Mundo"
+│   ├── 02_variables.cpp           # Tipos de datos y variables
+│   ├── 03_constants.cpp           # Declaración y uso de constantes
+│   ├── 04_namespaces.cpp          # Uso de espacios de nombres
+│   ├── 05_using_better_typedef.cpp # Uso avanzado de typedef y using
+│   ├── 06_arithmetic_operators.cpp # Operadores aritméticos
+│   ├── 07_type_conversion.cpp     # Conversión de tipos
+│   ├── 08_user_input.cpp          # Entrada de usuario
+│   └── templates.cpp              # Plantillas (templates)
+├── exercises/                     # Ejercicios prácticos
+│   ├── 01_integers.cpp            # Ejercicios con números enteros
+│   ├── 02_float_and_double.cpp    # Ejercicios con números decimales
+│   ├── 03_string_and_char.cpp     # Ejercicios con cadenas y caracteres
+│   ├── 04_constant.cpp            # Ejercicios sobre constantes
+│   └── 05_namespace.cpp           # Ejercicios sobre espacios de nombres
+└── README.md                      # Este archivo
+```
 ```
 
 ### 🎯 Objetivos de Aprendizaje
@@ -54,15 +62,23 @@ cplusplus/
 
 #### Teoría (`theory/`)
 
-- **`helloworld.cpp`**: Introducción básica a C++ con el clásico programa "Hola Mundo"
-- **`variables.cpp`**: Demostración de diferentes tipos de variables (int, float, double, char, string, etc.)
-- **`constants.cpp`**: Ejemplos de declaración y uso de constantes
+- **`01_helloworld.cpp`**: Introducción básica a C++ con el clásico programa "Hola Mundo"
+- **`02_variables.cpp`**: Demostración de diferentes tipos de variables (int, float, double, char, string, etc.)
+- **`03_constants.cpp`**: Ejemplos de declaración y uso de constantes
+- **`04_namespaces.cpp`**: Uso de espacios de nombres en C++
+- **`05_using_better_typedef.cpp`**: Uso avanzado de typedef y using
+- **`06_arithmetic_operators.cpp`**: Operadores aritméticos
+- **`07_type_conversion.cpp`**: Conversión de tipos
+- **`08_user_input.cpp`**: Entrada de usuario desde consola
+- **`templates.cpp`**: Introducción a plantillas (templates)
 
 #### Ejercicios (`exercises/`)
 
-- **`integers.cpp`**: Ejercicios prácticos con operaciones aritméticas básicas
-- **`float_and_double.cpp`**: Trabajo con números decimales y precisión
-- **`string_and_char.cpp`**: Manipulación de cadenas de texto y caracteres
+- **`01_integers.cpp`**: Ejercicios prácticos con operaciones aritméticas básicas
+- **`02_float_and_double.cpp`**: Trabajo con números decimales y precisión
+- **`03_string_and_char.cpp`**: Manipulación de cadenas de texto y caracteres
+- **`04_constant.cpp`**: Ejercicios sobre constantes
+- **`05_namespace.cpp`**: Ejercicios sobre espacios de nombres
 
 ### 🛠️ Requisitos
 
@@ -96,18 +112,24 @@ This repository contains C++ learning material organized into two main categorie
 
 ### 📁 Repository Structure
 
-```
 cplusplus/
 ├── theory/                 # Fundamental theoretical concepts
-│   ├── helloworld.cpp     # Basic "Hello World" program
-│   ├── variables.cpp      # Data types and variables
-│   └── constants.cpp      # Declaration and use of constants
-├── exercises/             # Practical exercises
-│   ├── integers.cpp       # Integer number exercises
-│   ├── float_and_double.cpp # Decimal number exercises
-│   └── string_and_char.cpp # String and character exercises
-└── README.md             # This file
-```
+│   ├── 01_helloworld.cpp           # Basic "Hello World" program
+│   ├── 02_variables.cpp           # Data types and variables
+│   ├── 03_constants.cpp           # Declaration and use of constants
+│   ├── 04_namespaces.cpp          # Using namespaces
+│   ├── 05_using_better_typedef.cpp # Advanced use of typedef and using
+│   ├── 06_arithmetic_operators.cpp # Arithmetic operators
+│   ├── 07_type_conversion.cpp     # Type conversion
+│   ├── 08_user_input.cpp          # User input
+│   └── templates.cpp              # Templates
+├── exercises/                     # Practical exercises
+│   ├── 01_integers.cpp            # Integer number exercises
+│   ├── 02_float_and_double.cpp    # Decimal number exercises
+│   ├── 03_string_and_char.cpp     # String and character exercises
+│   ├── 04_constant.cpp            # Exercises about constants
+│   └── 05_namespace.cpp           # Exercises about namespaces
+└── README.md                      # This file
 
 ### 🎯 Learning Objectives
 
@@ -140,15 +162,23 @@ cplusplus/
 
 #### Theory (`theory/`)
 
-- **`helloworld.cpp`**: Basic introduction to C++ with the classic "Hello World" program
-- **`variables.cpp`**: Demonstration of different variable types (int, float, double, char, string, etc.)
-- **`constants.cpp`**: Examples of constant declaration and usage
+- **`01_helloworld.cpp`**: Basic introduction to C++ with the classic "Hello World" program
+- **`02_variables.cpp`**: Demonstration of different variable types (int, float, double, char, string, etc.)
+- **`03_constants.cpp`**: Examples of constant declaration and usage
+- **`04_namespaces.cpp`**: Using namespaces in C++
+- **`05_using_better_typedef.cpp`**: Advanced use of typedef and using
+- **`06_arithmetic_operators.cpp`**: Arithmetic operators
+- **`07_type_conversion.cpp`**: Type conversion
+- **`08_user_input.cpp`**: User input from console
+- **`templates.cpp`**: Introduction to templates
 
 #### Exercises (`exercises/`)
 
-- **`integers.cpp`**: Practical exercises with basic arithmetic operations
-- **`float_and_double.cpp`**: Working with decimal numbers and precision
-- **`string_and_char.cpp`**: String and character manipulation
+- **`01_integers.cpp`**: Practical exercises with basic arithmetic operations
+- **`02_float_and_double.cpp`**: Working with decimal numbers and precision
+- **`03_string_and_char.cpp`**: String and character manipulation
+- **`04_constant.cpp`**: Exercises about constants
+- **`05_namespace.cpp`**: Exercises about namespaces
 
 ### 🛠️ Requirements
 
