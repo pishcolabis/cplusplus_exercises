@@ -10,6 +10,8 @@ En este ejemplo, se usa para limpiar el buffer de entrada después de una entrad
 // Programa que solicita al usuario su edad y valida la entrada.
 // Se utilizan buenas prácticas para el manejo de entrada estándar en C++.
 
+using buffer_cleaner_t = std::numeric_limits<std::streamsize>; // Alias para mejorar la legibilidad
+
 int main() {
     int edad; // Variable para almacenar la edad ingresada por el usuario
 
@@ -27,7 +29,7 @@ int main() {
         // se establece un estado de error que impide futuras operaciones de entrada.
         // std::cin.clear() restablece el estado para permitir nuevas lecturas.
 
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Descarta la entrada incorrecta
+        std::cin.ignore(buffer_cleaner_t::max(), '\n'); // Descarta la entrada incorrecta
         // std::cin.ignore() descarta los caracteres restantes en el buffer de entrada hasta encontrar un salto de línea ('\n')
         // o hasta alcanzar el máximo número de caracteres permitido.
         // Esto asegura que la siguiente lectura de std::cin comience con una entrada limpia.
@@ -54,6 +56,42 @@ int main() {
     Este ejemplo solicita al usuario su edad y valida que la entrada sea un número entero.
     Es una forma segura y robusta de manejar la entrada estándar en C++.
     */
+
+    /*
+    Ejemplo adicional: uso de std::getline para leer una cadena de texto
+    std::getline se usa para leer una línea completa de entrada, incluyendo espacios.
+
+    Es útil cuando se espera una entrada de texto que puede contener espacios, como nombres o frases.
+    A diferencia de std::cin >>, que solo lee hasta el primer espacio,
+    std::getline captura toda la línea hasta el salto de línea.
+    */
+
+    // Limpiar el buffer antes de usar std::getline
+    std::cin.ignore(buffer_cleaner_t::max(), '\n');
+    // Esto asegura que no haya caracteres pendientes en el buffer de entrada antes de leer una línea completa.
+    std::string nombre;
+    std::cout << "Ingrese su nombre: ";
+    std::getline(std::cin >> std::ws, nombre); // std::ws descarta espacios en blanco iniciales
+
+    /*
+    Importancia de los espacios:
+    - Si el usuario ingresa espacios en la cadena y luego presiona Enter,
+      std::getline los incluirá en la variable 'nombre'.
+    - Sin embargo, si hay caracteres de nueva línea ('\n') pendientes en el buffer
+      (por ejemplo, por una entrada anterior con std::cin >>), std::getline podría
+      leer una cadena vacía o no esperar la entrada del usuario.
+    - Por eso es importante limpiar el buffer antes de usar std::getline y evitar
+      dejar espacios o saltos de línea pendientes, ya que pueden cancelar la ejecución
+      de la siguiente lectura y provocar resultados inesperados.
+
+    Teóricamente:
+    - std::cin >> variable deja el salto de línea en el buffer después de leer la entrada.
+    - std::getline lee hasta el salto de línea, por lo que si el buffer no está limpio,
+      puede leer una cadena vacía y saltar la entrada del usuario.
+    - Usar std::cin.ignore() o std::ws antes de std::getline ayuda a evitar este problema.
+    */
+
+    std::cout << "Hola, " << nombre << "!" << std::endl;
 
     return 0; // Fin del programa
 }
