@@ -43,14 +43,16 @@ namespace library {
 }
 
 int main() {
-     // Acceso usando el nombre completo del namespace
-     int resultado1 = math::suma(5, 3);
-     int resultado2 = math::resta(10, 4);
-
+    // Acceso usando el nombre completo del namespace
+    int resultado1 = math::suma(5, 3);
+    int resultado2 = math::resta(10, 4);
+    
     // Usando 'using' para evitar escribir el nombre del namespace
     using utils::imprimir;
-    imprimir("Resultado de suma: " + std::to_string(resultado1));
-    imprimir("Resultado de resta: " + std::to_string(resultado2));
+    // Usando el namespace 'std' para evitar tener que escribir std:: cada vez
+    using namespace std;
+    imprimir("Resultado de suma: " + to_string(resultado1));
+    imprimir("Resultado de resta: " + to_string(resultado2));
 
     // Para evitar ambigüedad, llama explícitamente a la función del namespace 'library'.
     // Por tanto, una vez que has usado 'using', puedes llamar directamente a 'imprimir' de 'utils'.
