@@ -22,13 +22,17 @@ cplusplus/
 │   ├── 07_type_conversion.cpp     # Conversión de tipos
 │   ├── 08_user_input.cpp          # Entrada de usuario
 │   ├── 09_math_utils.cpp          # Funciones útiles para matemáticas
+│   ├── 10_hypotenuse.cpp          # Calcular manualmente la hipotenusa
+│   ├── 11_if_conditionals.cpp          # Condicionales con if
+│   ├── 12_switch_case_conditionals.cpp        # Condicionales con switch case y mapas
 │   └── templates.cpp              # Plantillas (templates)
 ├── exercises/                     # Ejercicios prácticos
 │   ├── 01_integers.cpp            # Ejercicios con números enteros
 │   ├── 02_float_and_double.cpp    # Ejercicios con números decimales
 │   ├── 03_string_and_char.cpp     # Ejercicios con cadenas y caracteres
 │   ├── 04_constant.cpp            # Ejercicios sobre constantes
-│   └── 05_namespace.cpp           # Ejercicios sobre espacios de nombres
+│   ├── 05_namespace.cpp           # Ejercicios sobre espacios de nombres
+│   └── 06_calculator.cpp          # Ejercicio de calculadora simple
 └── README.md                      # Este archivo
 ```
 
@@ -72,6 +76,9 @@ cplusplus/
 - **`07_type_conversion.cpp`**: Conversión de tipos
 - **`08_user_input.cpp`**: Entrada de usuario desde consola
 - **`09_math_utils.cpp`**: Funciones útiles para matemáticas
+- **`10_hypotenuse.cpp`**: Calcular manualmente la hipotenusa
+- **`11_if_conditionals.cpp`**: Condicionales If
+- **`12_switch_case_conditionals.cpp`**: Condicionales Switch Case y Mapas
 - **`templates.cpp`**: Introducción a plantillas (templates)
 
 #### Ejercicios (`exercises/`)
@@ -81,6 +88,7 @@ cplusplus/
 - **`03_string_and_char.cpp`**: Manipulación de cadenas de texto y caracteres
 - **`04_constant.cpp`**: Ejercicios sobre constantes
 - **`05_namespace.cpp`**: Ejercicios sobre espacios de nombres
+- **`06_calculator.cpp`**: Ejercicio de calculadora simple
 
 ### 🛠️ Requisitos
 
@@ -126,14 +134,18 @@ cplusplus/
 │   ├── 07_type_conversion.cpp     # Type conversion
 │   ├── 08_user_input.cpp          # User input
 │   ├── 09_math_utils.cpp          # Util math functions
+│   ├── 10_hypotenuse.cpp          # How to manually calculate hypotenuse
+│   ├── 11_if_conditionals.cpp          # Conditionals with if
+│   ├── 12_switch_case_conditionals.cpp        # Condicional with switch case and mapping
 │   └── templates.cpp              # Templates
 ├── exercises/                     # Practical exercises
 │   ├── 01_integers.cpp            # Integer number exercises
 │   ├── 02_float_and_double.cpp    # Decimal number exercises
 │   ├── 03_string_and_char.cpp     # String and character exercises
 │   ├── 04_constant.cpp            # Exercises about constants
-│   └── 05_namespace.cpp           # Exercises about namespaces
-└── README.md                      # This file
+│   ├── 05_namespace.cpp           # Exercises about namespaces
+│   └── 06_calculator.cpp          # Exercise of simple calculator
+└── README.md                      # This fil
 ```
 
 ### 🎯 Learning Objectives
@@ -176,6 +188,9 @@ cplusplus/
 - **`07_type_conversion.cpp`**: Type conversion
 - **`08_user_input.cpp`**: User input from console
 - **`09_math_utils.cpp`**: Util math functions
+- **`10_hypotenuse.cpp`**: How manually calculate hypotenuse
+- **`11_if_conditionals.cpp`**: If conditionals
+- **`12_switch_case_conditionals.cpp`**: Maps and switch case conditionals
 - **`templates.cpp`**: Introduction to templates
 
 #### Exercises (`exercises/`)
@@ -185,6 +200,7 @@ cplusplus/
 - **`03_string_and_char.cpp`**: String and character manipulation
 - **`04_constant.cpp`**: Exercises about constants
 - **`05_namespace.cpp`**: Exercises about namespaces
+- **`06_calculator.cpp`**: Exercise of simple calculator
 
 ### 🛠️ Requirements
 
