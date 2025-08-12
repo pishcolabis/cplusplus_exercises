@@ -9,27 +9,39 @@ Este repositorio contiene material de aprendizaje de C++ organizado en dos categ
 ```
 cplusplus/
 ├── theory/                 # Conceptos teóricos fundamentales
-│   ├── 01_helloworld.cpp           # Programa básico "Hola Mundo"
-│   ├── 02_variables.cpp           # Tipos de datos y variables
-│   ├── 03_constants.cpp           # Declaración y uso de constantes
-│   ├── 04_namespaces.cpp          # Uso de espacios de nombres
-│   ├── 05_using_better_typedef.cpp # Uso avanzado de typedef y using
-│   ├── 06_arithmetic_operators.cpp # Operadores aritméticos
-│   ├── 07_type_conversion.cpp     # Conversión de tipos
-│   ├── 08_user_input.cpp          # Entrada de usuario
-│   ├── 09_math_utils.cpp          # Funciones útiles para matemáticas
-│   ├── 10_hypotenuse.cpp          # Calcular manualmente la hipotenusa
+│   ├── 01_helloworld.cpp               # Programa básico "Hola Mundo"
+│   ├── 02_variables.cpp                # Tipos de datos y variables
+│   ├── 03_constants.cpp                # Declaración y uso de constantes
+│   ├── 04_namespaces.cpp               # Uso de espacios de nombres
+│   ├── 05_using_better_typedef.cpp     # Uso avanzado de typedef y using
+│   ├── 06_arithmetic_operators.cpp     # Operadores aritméticos
+│   ├── 07_type_conversion.cpp          # Conversión de tipos
+│   ├── 08_user_input.cpp               # Entrada de usuario
+│   ├── 09_math_utils.cpp               # Funciones útiles para matemáticas
+│   ├── 10_hypotenuse.cpp               # Calcular manualmente la hipotenusa
 │   ├── 11_if_conditionals.cpp          # Condicionales con if
-│   ├── 12_switch_case_conditionals.cpp        # Condicionales con switch case y mapas
-│   └── templates.cpp              # Plantillas (templates)
-├── exercises/                     # Ejercicios prácticos
-│   ├── 01_integers.cpp            # Ejercicios con números enteros
-│   ├── 02_float_and_double.cpp    # Ejercicios con números decimales
-│   ├── 03_string_and_char.cpp     # Ejercicios con cadenas y caracteres
-│   ├── 04_constant.cpp            # Ejercicios sobre constantes
-│   ├── 05_namespace.cpp           # Ejercicios sobre espacios de nombres
-│   └── 06_calculator.cpp          # Ejercicio de calculadora simple
-└── README.md                      # Este archivo
+│   ├── 12_switch_case_conditionals.cpp # Condicionales con switch case y mapas
+│   ├── 13_ternary_operator.cpp         # Operador ternario
+│   ├── 14_logic_operators.cpp          # Operadores lógicos
+│   ├── 15_string_methods.cpp           # Métodos de cadenas
+│   ├── 16_while_loop.cpp               # Bucle while
+│   ├── 17_do_while_loop.cpp            # Bucle do-while
+│   ├── 18_for_loop.cpp                 # Bucle for
+│   ├── 19_break_continue.cpp           # Uso de break y continue
+│   ├── 20_nested_loop.cpp              # Bucles anidados
+│   ├── 21_random.cpp                   # Números aleatorios
+│   └── templates.cpp                   # Plantillas (templates)
+├── exercises/                          # Ejercicios prácticos
+│   ├── 01_integers.cpp                 # Ejercicios con números enteros
+│   ├── 02_float_and_double.cpp         # Ejercicios con números decimales
+│   ├── 03_string_and_char.cpp          # Ejercicios con cadenas y caracteres
+│   ├── 04_constant.cpp                 # Ejercicios sobre constantes
+│   ├── 05_namespace.cpp                # Ejercicios sobre espacios de nombres
+│   ├── 06_calculator.cpp               # Ejercicio de calculadora simple
+│   ├── 07_degrees_converter.cpp        # Conversor de grados
+│   ├── 08_first_player.cpp             # Determinar el primer jugador
+│   └── 09_guess_number.cpp             # Juego de adivinar el número
+└── README.md                           # Este archivo
 ```
 
 ### 🎯 Objetivos de Aprendizaje
@@ -63,28 +75,40 @@ cplusplus/
 
 #### Teoría (`theory/`)
 
-- **`01_helloworld.cpp`**: Introducción básica a C++ con el clásico programa "Hola Mundo"
-- **`02_variables.cpp`**: Demostración de diferentes tipos de variables (int, float, double, char, string, etc.)
-- **`03_constants.cpp`**: Ejemplos de declaración y uso de constantes
-- **`04_namespaces.cpp`**: Uso de espacios de nombres en C++
-- **`05_using_better_typedef.cpp`**: Uso avanzado de typedef y using
-- **`06_arithmetic_operators.cpp`**: Operadores aritméticos
-- **`07_type_conversion.cpp`**: Conversión de tipos
-- **`08_user_input.cpp`**: Entrada de usuario desde consola
-- **`09_math_utils.cpp`**: Funciones útiles para matemáticas
-- **`10_hypotenuse.cpp`**: Calcular manualmente la hipotenusa
-- **`11_if_conditionals.cpp`**: Condicionales If
-- **`12_switch_case_conditionals.cpp`**: Condicionales Switch Case y Mapas
-- **`templates.cpp`**: Introducción a plantillas (templates)
+**`01_helloworld.cpp`**: Programa básico "Hola Mundo"
+**`02_variables.cpp`**: Tipos de datos y variables
+**`03_constants.cpp`**: Declaración y uso de constantes
+**`04_namespaces.cpp`**: Uso de espacios de nombres
+**`05_using_better_typedef.cpp`**: Uso avanzado de typedef y using
+**`06_arithmetic_operators.cpp`**: Operadores aritméticos
+**`07_type_conversion.cpp`**: Conversión de tipos
+**`08_user_input.cpp`**: Entrada de usuario
+**`09_math_utils.cpp`**: Funciones útiles para matemáticas
+**`10_hypotenuse.cpp`**: Calcular manualmente la hipotenusa
+**`11_if_conditionals.cpp`**: Condicionales con if
+**`12_switch_case_conditionals.cpp`**: Condicionales con switch case y mapas
+**`13_ternary_operator.cpp`**: Operador ternario
+**`14_logic_operators.cpp`**: Operadores lógicos
+**`15_string_methods.cpp`**: Métodos de cadenas
+**`16_while_loop.cpp`**: Bucle while
+**`17_do_while_loop.cpp`**: Bucle do-while
+**`18_for_loop.cpp`**: Bucle for
+**`19_break_continue.cpp`**: Uso de break y continue
+**`20_nested_loop.cpp`**: Bucles anidados
+**`21_random.cpp`**: Números aleatorios
+**`templates.cpp`**: Plantillas (templates)
 
 #### Ejercicios (`exercises/`)
 
-- **`01_integers.cpp`**: Ejercicios prácticos con operaciones aritméticas básicas
-- **`02_float_and_double.cpp`**: Trabajo con números decimales y precisión
-- **`03_string_and_char.cpp`**: Manipulación de cadenas de texto y caracteres
-- **`04_constant.cpp`**: Ejercicios sobre constantes
-- **`05_namespace.cpp`**: Ejercicios sobre espacios de nombres
-- **`06_calculator.cpp`**: Ejercicio de calculadora simple
+**`01_integers.cpp`**: Ejercicios con números enteros
+**`02_float_and_double.cpp`**: Ejercicios con números decimales
+**`03_string_and_char.cpp`**: Ejercicios con cadenas y caracteres
+**`04_constant.cpp`**: Ejercicios sobre constantes
+**`05_namespace.cpp`**: Ejercicios sobre espacios de nombres
+**`06_calculator.cpp`**: Ejercicio de calculadora simple
+**`07_degrees_converter.cpp`**: Conversor de grados
+**`08_first_player.cpp`**: Determinar el primer jugador
+**`09_guess_number.cpp`**: Juego de adivinar el número
 
 ### 🛠️ Requisitos
 

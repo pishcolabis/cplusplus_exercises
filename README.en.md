@@ -5,31 +5,42 @@
 This repository contains C++ learning material organized into two main categories: theory and practical exercises. It's designed to help students and developers learn the fundamental concepts of the C++ programming language.
 
 ### 📁 Repository Structure
-
 ```
 cplusplus/
-├── theory/                 # Fundamental theoretical concepts
-│   ├── 01_helloworld.cpp           # Basic "Hello World" program
-│   ├── 02_variables.cpp           # Data types and variables
-│   ├── 03_constants.cpp           # Declaration and use of constants
-│   ├── 04_namespaces.cpp          # Using namespaces
-│   ├── 05_using_better_typedef.cpp # Advanced use of typedef and using
-│   ├── 06_arithmetic_operators.cpp # Arithmetic operators
-│   ├── 07_type_conversion.cpp     # Type conversion
-│   ├── 08_user_input.cpp          # User input
-│   ├── 09_math_utils.cpp          # Util math functions
-│   ├── 10_hypotenuse.cpp          # How to manually calculate hypotenuse
-│   ├── 11_if_conditionals.cpp          # Conditionals with if
-│   ├── 12_switch_case_conditionals.cpp        # Condicional with switch case and mapping
-│   └── templates.cpp              # Templates
-├── exercises/                     # Practical exercises
-│   ├── 01_integers.cpp            # Integer number exercises
-│   ├── 02_float_and_double.cpp    # Decimal number exercises
-│   ├── 03_string_and_char.cpp     # String and character exercises
-│   ├── 04_constant.cpp            # Exercises about constants
-│   ├── 05_namespace.cpp           # Exercises about namespaces
-│   └── 06_calculator.cpp          # Exercise of simple calculator
-└── README.md                      # This fil
+├── theory/                 
+│   ├── 01_helloworld.cpp               # Basic "Hello World" program
+│   ├── 02_variables.cpp                # Data types and variables
+│   ├── 03_constants.cpp                # Declaration and use of constants
+│   ├── 04_namespaces.cpp               # Using namespaces
+│   ├── 05_using_better_typedef.cpp     # Advanced use of typedef and using
+│   ├── 06_arithmetic_operators.cpp     # Arithmetic operators
+│   ├── 07_type_conversion.cpp          # Type conversion
+│   ├── 08_user_input.cpp               # User input
+│   ├── 09_math_utils.cpp               # Useful math functions
+│   ├── 10_hypotenuse.cpp               # Manual hypotenuse calculation
+│   ├── 11_if_conditionals.cpp          # If conditionals
+│   ├── 12_switch_case_conditionals.cpp # Switch case and mapping conditionals
+│   ├── 13_ternary_operator.cpp         # Ternary operator
+│   ├── 14_logic_operators.cpp          # Logic operators
+│   ├── 15_string_methods.cpp           # String methods
+│   ├── 16_while_loop.cpp               # While loop
+│   ├── 17_do_while_loop.cpp            # Do-while loop
+│   ├── 18_for_loop.cpp                 # For loop
+│   ├── 19_break_continue.cpp           # Break and continue usage
+│   ├── 20_nested_loop.cpp              # Nested loops
+│   ├── 21_random.cpp                   # Random numbers
+│   └── templates.cpp                   # Templates
+├── exercises/                         
+│   ├── 01_integers.cpp                 # Integer number exercises
+│   ├── 02_float_and_double.cpp         # Decimal number exercises
+│   ├── 03_string_and_char.cpp          # String and character exercises
+│   ├── 04_constant.cpp                 # Exercises about constants
+│   ├── 05_namespace.cpp                # Exercises about namespaces
+│   ├── 06_calculator.cpp               # Simple calculator exercise
+│   ├── 07_degrees_converter.cpp        # Degrees converter
+│   ├── 08_first_player.cpp             # Determine the first player
+│   └── 09_guess_number.cpp             # Guess the number game
+└── README.md                           # This file
 ```
 
 ### 🎯 Learning Objectives
@@ -63,28 +74,40 @@ cplusplus/
 
 #### Theory (`theory/`)
 
-- **`01_helloworld.cpp`**: Basic introduction to C++ with the classic "Hello World" program
-- **`02_variables.cpp`**: Demonstration of different variable types (int, float, double, char, string, etc.)
-- **`03_constants.cpp`**: Examples of constant declaration and usage
-- **`04_namespaces.cpp`**: Using namespaces in C++
-- **`05_using_better_typedef.cpp`**: Advanced use of typedef and using
-- **`06_arithmetic_operators.cpp`**: Arithmetic operators
-- **`07_type_conversion.cpp`**: Type conversion
-- **`08_user_input.cpp`**: User input from console
-- **`09_math_utils.cpp`**: Util math functions
-- **`10_hypotenuse.cpp`**: How manually calculate hypotenuse
-- **`11_if_conditionals.cpp`**: If conditionals
-- **`12_switch_case_conditionals.cpp`**: Maps and switch case conditionals
-- **`templates.cpp`**: Introduction to templates
+**`01_helloworld.cpp`**: Basic "Hello World" program
+**`02_variables.cpp`**: Data types and variables
+**`03_constants.cpp`**: Declaration and use of constants
+**`04_namespaces.cpp`**: Using namespaces
+**`05_using_better_typedef.cpp`**: Advanced use of typedef and using
+**`06_arithmetic_operators.cpp`**: Arithmetic operators
+**`07_type_conversion.cpp`**: Type conversion
+**`08_user_input.cpp`**: User input
+**`09_math_utils.cpp`**: Useful math functions
+**`10_hypotenuse.cpp`**: Manual hypotenuse calculation
+**`11_if_conditionals.cpp`**: If conditionals
+**`12_switch_case_conditionals.cpp`**: Switch case and mapping conditionals
+**`13_ternary_operator.cpp`**: Ternary operator
+**`14_logic_operators.cpp`**: Logic operators
+**`15_string_methods.cpp`**: String methods
+**`16_while_loop.cpp`**: While loop
+**`17_do_while_loop.cpp`**: Do-while loop
+**`18_for_loop.cpp`**: For loop
+**`19_break_continue.cpp`**: Break and continue usage
+**`20_nested_loop.cpp`**: Nested loops
+**`21_random.cpp`**: Random numbers
+**`templates.cpp`**: Templates
 
 #### Exercises (`exercises/`)
 
-- **`01_integers.cpp`**: Practical exercises with basic arithmetic operations
-- **`02_float_and_double.cpp`**: Working with decimal numbers and precision
-- **`03_string_and_char.cpp`**: String and character manipulation
-- **`04_constant.cpp`**: Exercises about constants
-- **`05_namespace.cpp`**: Exercises about namespaces
-- **`06_calculator.cpp`**: Exercise of simple calculator
+**`01_integers.cpp`**: Integer number exercises
+**`02_float_and_double.cpp`**: Decimal number exercises
+**`03_string_and_char.cpp`**: String and character exercises
+**`04_constant.cpp`**: Exercises about constants
+**`05_namespace.cpp`**: Exercises about namespaces
+**`06_calculator.cpp`**: Simple calculator exercise
+**`07_degrees_converter.cpp`**: Degrees converter
+**`08_first_player.cpp`**: Determine the first player
+**`09_guess_number.cpp`**: Guess the number game
 
 ### 🛠️ Requirements
 
