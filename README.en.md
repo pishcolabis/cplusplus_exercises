@@ -2,7 +2,7 @@
 
 ### 📚 Description
 
-This repository contains C++ learning material organized into two main categories: theory and practical exercises. It's designed to help students and developers learn the fundamental concepts of the C++ programming language.
+This repository was created for personal educational purposes, to learn and practice C++. Its main goal is to build a foundation for future professional development projects, especially in software and game development. It includes theory and practical exercises covering both fundamental and advanced C++ concepts.
 
 ### 📁 Repository Structure
 ```
@@ -45,11 +45,14 @@ cplusplus/
 
 ### 🎯 Learning Objectives
 
-- **Basic Concepts**: Fundamental C++ syntax, primitive data types
-- **Variables and Constants**: Declaration, initialization, and usage of variables
-- **Arithmetic Operations**: Addition, subtraction, multiplication, and division
-- **Data Types**: Integers, decimals, characters, and strings
-- **Best Practices**: Code commenting and program structure
+The objectives of this repository are:
+
+- **Develop professional C++ skills** for future projects, especially in software and game development.
+- **Tackle complex problems** and learn to design efficient and robust solutions.
+- **Move away from front-end development** and focus on low-level programming, logic, algorithms, and data structures.
+- **Work with advanced concepts** such as memory management, optimization, and object-oriented programming.
+- **Master C++ syntax and fundamentals**, including variables, constants, operators, data types, loops, conditionals, and templates.
+- **Apply best practices** in code writing and documentation.
 
 ### 🚀 How to Use This Repository
 
@@ -137,7 +140,7 @@ This project is for educational purposes. Feel free to use and modify the code f
 
 ### 👨‍💻 Author
 
-Created for C++ learning purposes.
+Created for personal C++ learning and as preparation for future professional development work, including game development.
 
 ---
 

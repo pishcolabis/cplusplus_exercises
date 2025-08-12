@@ -2,7 +2,7 @@
 
 ### 📚 Descripción
 
-Este repositorio contiene material de aprendizaje de C++ organizado en dos categorías principales: teoría y ejercicios prácticos. Está diseñado para ayudar a estudiantes y desarrolladores a aprender los conceptos fundamentales del lenguaje de programación C++.
+Este repositorio ha sido creado con fines educativos personales, para aprender y practicar C++. Su objetivo principal es servir como base para el desarrollo de habilidades en el lenguaje, con la intención de aplicar estos conocimientos en futuros proyectos profesionales, especialmente en el ámbito del desarrollo de software y videojuegos. Incluye teoría y ejercicios prácticos que cubren los conceptos fundamentales y avanzados de C++.
 
 ### 📁 Estructura del Repositorio
 
@@ -46,11 +46,14 @@ cplusplus/
 
 ### 🎯 Objetivos de Aprendizaje
 
-- **Conceptos Básicos**: Sintaxis fundamental de C++, tipos de datos primitivos
-- **Variables y Constantes**: Declaración, inicialización y uso de variables
-- **Operaciones Aritméticas**: Suma, resta, multiplicación y división
-- **Tipos de Datos**: Enteros, decimales, caracteres y cadenas de texto
-- **Buenas Prácticas**: Comentarios en código y estructura de programas
+Los objetivos de este repositorio son:
+
+- **Desarrollar habilidades profesionales en C++** para futuros proyectos, especialmente en el desarrollo de software y videojuegos.
+- **Afrontar problemas complejos** y aprender a diseñar soluciones eficientes y robustas.
+- **Alejarse del ámbito del front-end** y enfocarse en la programación a bajo nivel, lógica, algoritmos y estructuras de datos.
+- **Trabajar con conceptos avanzados** como manejo de memoria, optimización, y programación orientada a objetos.
+- **Dominar la sintaxis y fundamentos de C++**, incluyendo variables, constantes, operadores, tipos de datos, bucles, condicionales y plantillas.
+- **Aplicar buenas prácticas** en la escritura y documentación del código.
 
 ### 🚀 Cómo Usar Este Repositorio
 
@@ -138,7 +141,7 @@ Este proyecto es con fines educativos. Siéntete libre de usar y modificar el c�
 
 ### 👨‍💻 Autor
 
-Creado con fines educativos.
+Creado para el aprendizaje personal de C++ y como preparación para futuros trabajos de desarrollo profesional, incluyendo el desarrollo de videojuegos.
 
 ---
 
