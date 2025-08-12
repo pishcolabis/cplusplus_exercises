@@ -139,7 +139,7 @@ Las contribuciones son bienvenidas. Si encuentras errores o quieres agregar más
 
 Este proyecto es con fines educativos. Siéntete libre de usar y modificar el código para aprender.
 
-### 👨‍💻 Autor
+### 👨‍💻 Autor (@pishcolabis)
 
 Creado para el aprendizaje personal de C++ y como preparación para futuros trabajos de desarrollo profesional, incluyendo el desarrollo de videojuegos.
 

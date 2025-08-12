@@ -138,7 +138,7 @@ Contributions are welcome. If you find errors or want to add more examples, plea
 
 This project is for educational purposes. Feel free to use and modify the code for learning.
 
-### 👨‍💻 Author
+### 👨‍💻 Author (@pishcolabis)
 
 Created for personal C++ learning and as preparation for future professional development work, including game development.
 
