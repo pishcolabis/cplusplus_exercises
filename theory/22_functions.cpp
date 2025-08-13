@@ -79,7 +79,7 @@ void imprimir(double x);
  * @param precios Array de precios.
  * @return double El total de los precios.
  */
-double calcularTotal(double precios[]);
+double calcularTotal(double precios[], int size);
 
 // Inclusión de cabeceras necesarias
 #include <iostream>
@@ -114,7 +114,8 @@ int main() {
 
     // Ejemplo de uso de un array de precios
     double precios[] = {10.5, 20.0, 30.75};
-    double total = calcularTotal(precios);
+    int size = sizeof(precios) / sizeof(precios[0]); // Calcula el tamaño del array real
+    double total = calcularTotal(precios, size);
     cout << "Total de precios: $" << total << endl;
 
     return 0;
@@ -160,11 +161,15 @@ void imprimir(double x) {
     cout << "Double: " << x << endl;
 }
 
-double calcularTotal(double precios[]) {
+double calcularTotal(double precios[], int size) {
     // Calcula el total de los precios
     double total = 0.0;
-    for (int i = 0; i < sizeof(precios) / sizeof(precios[0]); ++i) {
-        total += precios[i];
-    }
+
+    // Hacer esto esta mal porque no sabemos el tamaño del array.
+    // DEn su lugar, se debe pasar el tamaño del array como argumento.
+    // Aquí lo que calcula es el tamaño del puntero, no el tamaño del array.
+    // for (int i = 0; i < sizeof(precios) / sizeof(precios[0]); ++i) {
+    //     total += precios[i];
+    // }
     return total;
 }
