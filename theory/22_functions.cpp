@@ -73,6 +73,14 @@ void imprimir(int x);
  */
 void imprimir(double x);
 
+/**
+ * @brief Calcular el total de los precios a través de un array de precios.
+ * 
+ * @param precios Array de precios.
+ * @return double El total de los precios.
+ */
+double calcularTotal(double precios[]);
+
 // Inclusión de cabeceras necesarias
 #include <iostream>
 #include <string>
@@ -103,6 +111,11 @@ int main() {
     // Llamada a funciones sobrecargadas
     imprimir(7);
     imprimir(3.14);
+
+    // Ejemplo de uso de un array de precios
+    double precios[] = {10.5, 20.0, 30.75};
+    double total = calcularTotal(precios);
+    cout << "Total de precios: $" << total << endl;
 
     return 0;
 }
@@ -145,4 +158,13 @@ void imprimir(int x) {
 void imprimir(double x) {
     // Imprime un número double
     cout << "Double: " << x << endl;
+}
+
+double calcularTotal(double precios[]) {
+    // Calcula el total de los precios
+    double total = 0.0;
+    for (int i = 0; i < sizeof(precios) / sizeof(precios[0]); ++i) {
+        total += precios[i];
+    }
+    return total;
 }
