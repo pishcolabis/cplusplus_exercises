@@ -30,6 +30,15 @@ cplusplus/
 │   ├── 20_nested_loop.cpp              # Nested loops
 │   ├── 21_random.cpp                   # Random numbers
 │   └── templates.cpp                   # Templates
+│   ├── 22_functions.cpp                # Functions
+│   ├── 23_functions_overload.cpp       # Function overloading
+│   ├── 24_functions_lambda.cpp         # Lambda functions
+│   ├── 25_scope.cpp                    # Variable scope
+│   ├── 26_arrays.cpp                   # Arrays
+│   ├── 27_sizeof.cpp                   # Using sizeof
+│   ├── 28_foreach_loop.cpp             # Foreach loop
+│   ├── pointers_references.cpp         # Pointers and references
+│   └── templates.cpp                   # Templates
 ├── exercises/                         
 │   ├── 01_integers.cpp                 # Integer number exercises
 │   ├── 02_float_and_double.cpp         # Decimal number exercises
@@ -39,7 +48,9 @@ cplusplus/
 │   ├── 06_calculator.cpp               # Simple calculator exercise
 │   ├── 07_degrees_converter.cpp        # Degrees converter
 │   ├── 08_first_player.cpp             # Determine the first player
-│   └── 09_guess_number.cpp             # Guess the number game
+│   ├── 09_guess_number.cpp             # Guess the number game
+│   ├── 10_bank_account.cpp             # Bank account simulation
+│   └── 11_rock_paper_scissors.cpp      # Rock, paper, scissors game
 └── README.md                           # This file
 ```
 
@@ -98,6 +109,14 @@ The objectives of this repository are:
 **`19_break_continue.cpp`**: Break and continue usage
 **`20_nested_loop.cpp`**: Nested loops
 **`21_random.cpp`**: Random numbers
+**`22_functions.cpp`**: Functions
+**`23_functions_overload.cpp`**: Function overloading
+**`24_functions_lambda.cpp`**: Lambda functions
+**`25_scope.cpp`**: Variable scope
+**`26_arrays.cpp`**: Arrays
+**`27_sizeof.cpp`**: Using sizeof
+**`28_foreach_loop.cpp`**: Foreach loop
+**`pointers_references.cpp`**: Pointers and references
 **`templates.cpp`**: Templates
 
 #### Exercises (`exercises/`)
@@ -111,6 +130,8 @@ The objectives of this repository are:
 **`07_degrees_converter.cpp`**: Degrees converter
 **`08_first_player.cpp`**: Determine the first player
 **`09_guess_number.cpp`**: Guess the number game
+**`10_bank_account.cpp`**: Bank account simulation
+**`11_rock_paper_scissors.cpp`**: Rock, paper, scissors game
 
 ### 🛠️ Requirements
 

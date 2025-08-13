@@ -30,6 +30,14 @@ cplusplus/
 │   ├── 19_break_continue.cpp           # Uso de break y continue
 │   ├── 20_nested_loop.cpp              # Bucles anidados
 │   ├── 21_random.cpp                   # Números aleatorios
+│   ├── 22_functions.cpp                # Funciones
+│   ├── 23_functions_overload.cpp       # Sobrecarga de funciones
+│   ├── 24_functions_lambda.cpp         # Funciones lambda
+│   ├── 25_scope.cpp                    # Ámbito de variables
+│   ├── 26_arrays.cpp                   # Arreglos
+│   ├── 27_sizeof.cpp                   # Uso de sizeof
+│   ├── 28_foreach_loop.cpp             # Bucle foreach
+│   ├── pointers_references.cpp         # Punteros y referencias
 │   └── templates.cpp                   # Plantillas (templates)
 ├── exercises/                          # Ejercicios prácticos
 │   ├── 01_integers.cpp                 # Ejercicios con números enteros
@@ -40,7 +48,9 @@ cplusplus/
 │   ├── 06_calculator.cpp               # Ejercicio de calculadora simple
 │   ├── 07_degrees_converter.cpp        # Conversor de grados
 │   ├── 08_first_player.cpp             # Determinar el primer jugador
-│   └── 09_guess_number.cpp             # Juego de adivinar el número
+│   ├── 09_guess_number.cpp             # Juego de adivinar el número
+│   ├── 10_bank_account.cpp             # Simulación de cuenta bancaria
+│   └── 11_rock_paper_scissors.cpp      # Juego de piedra, papel o tijera
 └── README.md                           # Este archivo
 ```
 
@@ -99,6 +109,14 @@ Los objetivos de este repositorio son:
 **`19_break_continue.cpp`**: Uso de break y continue
 **`20_nested_loop.cpp`**: Bucles anidados
 **`21_random.cpp`**: Números aleatorios
+**`22_functions.cpp`**: Funciones
+**`23_functions_overload.cpp`**: Sobrecarga de funciones
+**`24_functions_lambda.cpp`**: Funciones lambda
+**`25_scope.cpp`**: Ámbito de variables
+**`26_arrays.cpp`**: Arreglos
+**`27_sizeof.cpp`**: Uso de sizeof
+**`28_foreach_loop.cpp`**: Bucle foreach
+**`pointers_references.cpp`**: Punteros y referencias
 **`templates.cpp`**: Plantillas (templates)
 
 #### Ejercicios (`exercises/`)
@@ -112,6 +130,8 @@ Los objetivos de este repositorio son:
 **`07_degrees_converter.cpp`**: Conversor de grados
 **`08_first_player.cpp`**: Determinar el primer jugador
 **`09_guess_number.cpp`**: Juego de adivinar el número
+**`10_bank_account.cpp`**: Simulación de cuenta bancaria
+**`11_rock_paper_scissors.cpp`**: Juego de piedra, papel o tijera
 
 ### 🛠️ Requisitos
 
