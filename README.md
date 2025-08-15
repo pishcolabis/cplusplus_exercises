@@ -37,7 +37,9 @@ cplusplus/
 │   ├── 26_arrays.cpp                   # Arreglos
 │   ├── 27_sizeof.cpp                   # Uso de sizeof
 │   ├── 28_foreach_loop.cpp             # Bucle foreach
-│   ├── pointers_references.cpp         # Punteros y referencias
+│   ├── 29_memory.cpp             	# Direcciones de memoria
+│   ├── 30_reference.cpp             	# Pasar por referencia y valor
+│   ├── 31_pointers.cpp         	# Punteros
 │   └── templates.cpp                   # Plantillas (templates)
 ├── exercises/                          # Ejercicios prácticos
 │   ├── 01_integers.cpp                 # Ejercicios con números enteros
@@ -83,55 +85,6 @@ Los objetivos de este repositorio son:
    ```bash
    ./programa
    ```
-
-### 📖 Contenido Detallado
-
-#### Teoría (`theory/`)
-
-**`01_helloworld.cpp`**: Programa básico "Hola Mundo"
-**`02_variables.cpp`**: Tipos de datos y variables
-**`03_constants.cpp`**: Declaración y uso de constantes
-**`04_namespaces.cpp`**: Uso de espacios de nombres
-**`05_using_better_typedef.cpp`**: Uso avanzado de typedef y using
-**`06_arithmetic_operators.cpp`**: Operadores aritméticos
-**`07_type_conversion.cpp`**: Conversión de tipos
-**`08_user_input.cpp`**: Entrada de usuario
-**`09_math_utils.cpp`**: Funciones útiles para matemáticas
-**`10_hypotenuse.cpp`**: Calcular manualmente la hipotenusa
-**`11_if_conditionals.cpp`**: Condicionales con if
-**`12_switch_case_conditionals.cpp`**: Condicionales con switch case y mapas
-**`13_ternary_operator.cpp`**: Operador ternario
-**`14_logic_operators.cpp`**: Operadores lógicos
-**`15_string_methods.cpp`**: Métodos de cadenas
-**`16_while_loop.cpp`**: Bucle while
-**`17_do_while_loop.cpp`**: Bucle do-while
-**`18_for_loop.cpp`**: Bucle for
-**`19_break_continue.cpp`**: Uso de break y continue
-**`20_nested_loop.cpp`**: Bucles anidados
-**`21_random.cpp`**: Números aleatorios
-**`22_functions.cpp`**: Funciones
-**`23_functions_overload.cpp`**: Sobrecarga de funciones
-**`24_functions_lambda.cpp`**: Funciones lambda
-**`25_scope.cpp`**: Ámbito de variables
-**`26_arrays.cpp`**: Arreglos
-**`27_sizeof.cpp`**: Uso de sizeof
-**`28_foreach_loop.cpp`**: Bucle foreach
-**`pointers_references.cpp`**: Punteros y referencias
-**`templates.cpp`**: Plantillas (templates)
-
-#### Ejercicios (`exercises/`)
-
-**`01_integers.cpp`**: Ejercicios con números enteros
-**`02_float_and_double.cpp`**: Ejercicios con números decimales
-**`03_string_and_char.cpp`**: Ejercicios con cadenas y caracteres
-**`04_constant.cpp`**: Ejercicios sobre constantes
-**`05_namespace.cpp`**: Ejercicios sobre espacios de nombres
-**`06_calculator.cpp`**: Ejercicio de calculadora simple
-**`07_degrees_converter.cpp`**: Conversor de grados
-**`08_first_player.cpp`**: Determinar el primer jugador
-**`09_guess_number.cpp`**: Juego de adivinar el número
-**`10_bank_account.cpp`**: Simulación de cuenta bancaria
-**`11_rock_paper_scissors.cpp`**: Juego de piedra, papel o tijera
 
 ### 🛠️ Requisitos
 

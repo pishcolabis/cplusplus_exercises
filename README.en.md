@@ -5,9 +5,10 @@
 This repository was created for personal educational purposes, to learn and practice C++. Its main goal is to build a foundation for future professional development projects, especially in software and game development. It includes theory and practical exercises covering both fundamental and advanced C++ concepts.
 
 ### 📁 Repository Structure
+
 ```
 cplusplus/
-├── theory/                 
+├── theory/   
 │   ├── 01_helloworld.cpp               # Basic "Hello World" program
 │   ├── 02_variables.cpp                # Data types and variables
 │   ├── 03_constants.cpp                # Declaration and use of constants
@@ -37,9 +38,11 @@ cplusplus/
 │   ├── 26_arrays.cpp                   # Arrays
 │   ├── 27_sizeof.cpp                   # Using sizeof
 │   ├── 28_foreach_loop.cpp             # Foreach loop
-│   ├── pointers_references.cpp         # Pointers and references
+│   ├── 29_memory.cpp             	# Memory address
+│   ├── 30_reference.cpp             	# Reference and value as argument
+│   ├── 31_pointers.cpp         	# Pointers
 │   └── templates.cpp                   # Templates
-├── exercises/                         
+├── exercises/   
 │   ├── 01_integers.cpp                 # Integer number exercises
 │   ├── 02_float_and_double.cpp         # Decimal number exercises
 │   ├── 03_string_and_char.cpp          # String and character exercises
@@ -83,55 +86,6 @@ The objectives of this repository are:
    ```bash
    ./program
    ```
-
-### 📖 Detailed Content
-
-#### Theory (`theory/`)
-
-**`01_helloworld.cpp`**: Basic "Hello World" program
-**`02_variables.cpp`**: Data types and variables
-**`03_constants.cpp`**: Declaration and use of constants
-**`04_namespaces.cpp`**: Using namespaces
-**`05_using_better_typedef.cpp`**: Advanced use of typedef and using
-**`06_arithmetic_operators.cpp`**: Arithmetic operators
-**`07_type_conversion.cpp`**: Type conversion
-**`08_user_input.cpp`**: User input
-**`09_math_utils.cpp`**: Useful math functions
-**`10_hypotenuse.cpp`**: Manual hypotenuse calculation
-**`11_if_conditionals.cpp`**: If conditionals
-**`12_switch_case_conditionals.cpp`**: Switch case and mapping conditionals
-**`13_ternary_operator.cpp`**: Ternary operator
-**`14_logic_operators.cpp`**: Logic operators
-**`15_string_methods.cpp`**: String methods
-**`16_while_loop.cpp`**: While loop
-**`17_do_while_loop.cpp`**: Do-while loop
-**`18_for_loop.cpp`**: For loop
-**`19_break_continue.cpp`**: Break and continue usage
-**`20_nested_loop.cpp`**: Nested loops
-**`21_random.cpp`**: Random numbers
-**`22_functions.cpp`**: Functions
-**`23_functions_overload.cpp`**: Function overloading
-**`24_functions_lambda.cpp`**: Lambda functions
-**`25_scope.cpp`**: Variable scope
-**`26_arrays.cpp`**: Arrays
-**`27_sizeof.cpp`**: Using sizeof
-**`28_foreach_loop.cpp`**: Foreach loop
-**`pointers_references.cpp`**: Pointers and references
-**`templates.cpp`**: Templates
-
-#### Exercises (`exercises/`)
-
-**`01_integers.cpp`**: Integer number exercises
-**`02_float_and_double.cpp`**: Decimal number exercises
-**`03_string_and_char.cpp`**: String and character exercises
-**`04_constant.cpp`**: Exercises about constants
-**`05_namespace.cpp`**: Exercises about namespaces
-**`06_calculator.cpp`**: Simple calculator exercise
-**`07_degrees_converter.cpp`**: Degrees converter
-**`08_first_player.cpp`**: Determine the first player
-**`09_guess_number.cpp`**: Guess the number game
-**`10_bank_account.cpp`**: Bank account simulation
-**`11_rock_paper_scissors.cpp`**: Rock, paper, scissors game
 
 ### 🛠️ Requirements
 
