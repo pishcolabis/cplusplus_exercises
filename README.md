@@ -37,9 +37,9 @@ cplusplus/
 │   ├── 26_arrays.cpp                   # Arreglos
 │   ├── 27_sizeof.cpp                   # Uso de sizeof
 │   ├── 28_foreach_loop.cpp             # Bucle foreach
-│   ├── 29_memory.cpp             	    # Direcciones de memoria
-│   ├── 30_reference.cpp             	 # Pasar por referencia y valor
-│   ├── 31_pointers.cpp         	       # Punteros
+│   ├── 29_memory.cpp                   # Direcciones de memoria
+│   ├── 30_reference.cpp                # Pasar por referencia y valor
+│   ├── 31_pointers.cpp                 # Punteros
 │   └── templates.cpp                   # Plantillas (templates)
 ├── exercises/                          # Ejercicios prácticos
 │   ├── 01_integers.cpp                 # Ejercicios con números enteros
