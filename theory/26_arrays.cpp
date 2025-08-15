@@ -38,8 +38,8 @@
     Arrays y funciones:
     - Se pueden pasar arrays a funciones, pero realmente se pasa un puntero al primer elemento.
     - Ejemplo:
-        void imprimir(int arr[], int tamaño) {
-            for(int i = 0; i < tamaño; ++i)
+        void imprimir(int arr[], int size) {
+            for(int i = 0; i < size; ++i)
                 std::cout << arr[i] << " ";
         }
 
@@ -59,9 +59,11 @@
 #include <string>
 #include <algorithm>
 
-int buscarElemento(int arr[], int tamaño, int valor);
+int buscarElemento(int arr[], int size, int valor);
 
-std::string buscarElemento(std::string arr[], int tamaño, std::string valor);
+std::string buscarElemento(std::string arr[], int size, std::string valor);
+
+void bubbleSort(int arr[], int size);
 
 int main() {
     // Declaración e inicialización
@@ -102,9 +104,9 @@ int main() {
     // Pasar array a función
     // La palabra reservada 'auto' permite deducir el tipo de la función automáticamente.
     // Para saber más sobre las funciones lambda, consulta el fichero functions_lambda.cpp.
-    auto imprimir = [](int arr[], int tamaño) {
+    auto imprimir = [](int arr[], int size) {
         std::cout << "Array recibido en función: ";
-        for(int i = 0; i < tamaño; ++i)
+        for(int i = 0; i < size; ++i)
             std::cout << arr[i] << " ";
         std::cout << std::endl;
     };
@@ -123,29 +125,7 @@ int main() {
     int numerosAOrdenar[] = {10,9,6,7,5,8,4,3,2,1};
     int size = sizeof(numerosAOrdenar) / sizeof(int);
 
-    // Algoritmo de ordenamiento Burbuja (Bubble Sort)
-    // Recorre el array varias veces, comparando elementos siguientes y
-    // los intercambia si están en el orden incorrecto.
-    // Después de cada pasada, el elemento más grande se coloca al final.
-
-    // Número de pasadas es igual al tamaño del array menos uno.
-    for(int i = 0; i < size - 1; ++i) {
-        // Comparaciones en cada pasada.
-        // Se reduce el número de comparaciones en cada iteración,
-        // ya que los últimos elementos ya están ordenados.
-        // En este caso, el número de comparaciones es size - i - 1.
-        // Esto evita comparar elementos ya ordenados.
-        // Y además, evita overflow en el índice.
-        for(int j = 0; j < size - i - 1; ++j) {
-            // Si el elemento actual es mayor que el siguiente, se intercambian
-            if(numerosAOrdenar[j] > numerosAOrdenar[j + 1]) {
-                // Intercambiar valores usando una variable temporal
-                int temp = numerosAOrdenar[j];
-                numerosAOrdenar[j] = numerosAOrdenar[j + 1];
-                numerosAOrdenar[j + 1] = temp;
-            }
-        }
-    }
+    bubbleSort(numerosAOrdenar, size);
 
     std::cout << "\nArray ordenado:\n";
     for(int i = 0; i < size; ++i) {
@@ -185,8 +165,8 @@ int main() {
     - Los arrays son la base para estructuras más complejas como matrices y buffers.
 */
 
-int buscarElemento(int arr[], int tamaño, int valor) {
-    for(int i = 0; i < tamaño; ++i) {
+int buscarElemento(int arr[], int size, int valor) {
+    for(int i = 0; i < size; ++i) {
         if(arr[i] == valor) {
             std::cout << "Elemento " << valor << " encontrado en el índice " << i << std::endl;
             return i;
@@ -196,8 +176,8 @@ int buscarElemento(int arr[], int tamaño, int valor) {
     return -1;
 }
 
-std::string buscarElemento(std::string arr[], int tamaño, std::string valor) {
-    for(int i = 0; i < tamaño; ++i) {
+std::string buscarElemento(std::string arr[], int size, std::string valor) {
+    for(int i = 0; i < size; ++i) {
         if(arr[i] == valor) {
             std::cout << "Elemento '" << valor << "' encontrado en el índice " << i << std::endl;
             return arr[i];
@@ -205,4 +185,29 @@ std::string buscarElemento(std::string arr[], int tamaño, std::string valor) {
     }
     std::cout << "Elemento '" << valor << "' no encontrado." << std::endl;
     return "";
+}
+
+// Algoritmo de ordenamiento Burbuja (Bubble Sort)
+// Recorre el array varias veces, comparando elementos siguientes y
+// los intercambia si están en el orden incorrecto.
+// Después de cada pasada, el elemento más grande se coloca al final.
+void bubbleSort(int arr[], int size) {
+    // Número de pasadas es igual al tamaño del array menos uno.
+    for(int i = 0; i < size - 1; ++i) {
+        // Comparaciones en cada pasada.
+        // Se reduce el número de comparaciones en cada iteración,
+        // ya que los últimos elementos ya están ordenados.
+        // En este caso, el número de comparaciones es size - i - 1.
+        // Esto evita comparar elementos ya ordenados.
+        // Y además, evita overflow en el índice.
+        for(int j = 0; j < size - i - 1; ++j) {
+            // Si el elemento actual es mayor que el siguiente, se intercambian
+            if(arr[j] > arr[j + 1]) {
+                // Intercambiar valores usando una variable temporal
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
 }
