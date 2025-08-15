@@ -155,6 +155,17 @@ int main() {
     }
     std::cout << std::endl;
     return 0;
+
+    // Uso de la función fill
+    const int COMIDA_SIZE = 100;
+    std::string comida[COMIDA_SIZE];
+    // Llenar el array con un valor específico
+    fill(comida, comida + COMIDA_SIZE, "Pizza");
+
+    for(int i = 0; i < COMIDA_SIZE; ++i) {
+        std::cout << comida[i] << " ";
+    }
+    std::cout << std::endl;
 }
 
 /*
