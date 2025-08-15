@@ -49,7 +49,7 @@ int main() {
     std::cout << "Cafe2 (después de cambiar por referencia): " << cafe2 << std::endl; // Debería imprimir "cafe"
     std::cout << "Agua2 (después de cambiar por referencia): " << agua2 << std::endl; // Debería imprimir "agua"
 
-    // Una forma de darle seguridad a ciertas funciones que reciben parámetros por valor
+    // Una forma de darle seguridad a ciertas funciones que reciben parámetros por valor o referencia
     // es asegurarnos de que no se modifiquen los valores originales.
     // Esto se puede hacer usando const para indicar que los parámetros no deben ser modificados.
     // Esto puede ser útil en funciones que no necesitan modificar los valores,
