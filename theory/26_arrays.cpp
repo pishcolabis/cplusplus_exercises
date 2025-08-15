@@ -109,6 +109,15 @@ int main() {
     };
     imprimir(numeros, 5);
 
+    // Buscar un elemento en el array de enteros
+    int valorABuscar = 35;
+    buscarElemento(numeros, 5, valorABuscar);
+
+    // Buscar un elemento en un array de strings
+    std::string palabras[3] = {"hola", "mundo", "C++"};
+    std::string palabraABuscar = "mundo";
+    buscarElemento(palabras, 3, palabraABuscar);
+
     return 0;
 }
 
