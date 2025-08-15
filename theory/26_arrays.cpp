@@ -57,6 +57,8 @@
 
 #include <iostream>
 
+int buscarElemento(int arr[], int tamaño, int valor);
+
 int main() {
     // Declaración e inicialización
     int numeros[5] = {10, 20, 30, 40, 50};
@@ -114,3 +116,14 @@ int main() {
     - Para colecciones dinámicas, se recomienda usar std::vector.
     - Los arrays son la base para estructuras más complejas como matrices y buffers.
 */
+
+int buscarElemento(int arr[], int tamaño, int valor) {
+    for(int i = 0; i < tamaño; ++i) {
+        if(arr[i] == valor) {
+            std::cout << "Elemento " << valor << " encontrado en el índice " << i << std::endl;
+            return i;
+        }
+    }
+    std::cout << "Elemento " << valor << " no encontrado." << std::endl;
+    return -1;
+}
