@@ -56,8 +56,11 @@
 */
 
 #include <iostream>
+#include <string>
 
 int buscarElemento(int arr[], int tamaño, int valor);
+
+std::string buscarElemento(std::string arr[], int tamaño, std::string valor);
 
 int main() {
     // Declaración e inicialización
@@ -126,4 +129,15 @@ int buscarElemento(int arr[], int tamaño, int valor) {
     }
     std::cout << "Elemento " << valor << " no encontrado." << std::endl;
     return -1;
+}
+
+std::string buscarElemento(std::string arr[], int tamaño, std::string valor) {
+    for(int i = 0; i < tamaño; ++i) {
+        if(arr[i] == valor) {
+            std::cout << "Elemento '" << valor << "' encontrado en el índice " << i << std::endl;
+            return arr[i];
+        }
+    }
+    std::cout << "Elemento '" << valor << "' no encontrado." << std::endl;
+    return "";
 }
