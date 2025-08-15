@@ -57,6 +57,7 @@
 
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 int buscarElemento(int arr[], int tamaño, int valor);
 
@@ -118,6 +119,61 @@ int main() {
     std::string palabraABuscar = "mundo";
     buscarElemento(palabras, 3, palabraABuscar);
 
+    // Ordenar el array de enteros por algoritmo de burbuja (Bubble Sort)
+    int numerosAOrdenar[] = {10,9,6,7,5,8,4,3,2,1};
+    int size = sizeof(numerosAOrdenar) / sizeof(int);
+
+    // Algoritmo de ordenamiento Burbuja (Bubble Sort)
+    // Recorre el array varias veces, comparando elementos siguientes y
+    // los intercambia si están en el orden incorrecto.
+    // Después de cada pasada, el elemento más grande se coloca al final.
+
+    // Número de pasadas es igual al tamaño del array menos uno.
+    for(int i = 0; i < size - 1; ++i) {
+        // Comparaciones en cada pasada.
+        // Se reduce el número de comparaciones en cada iteración,
+        // ya que los últimos elementos ya están ordenados.
+        // En este caso, el número de comparaciones es size - i - 1.
+        // Esto evita comparar elementos ya ordenados.
+        // Y además, evita overflow en el índice.
+        for(int j = 0; j < size - i - 1; ++j) {
+            // Si el elemento actual es mayor que el siguiente, se intercambian
+            if(numerosAOrdenar[j] > numerosAOrdenar[j + 1]) {
+                // Intercambiar valores usando una variable temporal
+                int temp = numerosAOrdenar[j];
+                numerosAOrdenar[j] = numerosAOrdenar[j + 1];
+                numerosAOrdenar[j + 1] = temp;
+            }
+        }
+    }
+
+    std::cout << "\nArray ordenado:\n";
+    for(int i = 0; i < size; ++i) {
+        std::cout << numerosAOrdenar[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // Otra forma de ordenar el array es usando la función std::sort
+    // de la biblioteca <algorithm>, que implementa un algoritmo eficiente.
+    // std::sort utiliza un algoritmo de ordenamiento rápido (Quick Sort) o similar,
+    // que es mucho más eficiente que el Bubble Sort para grandes conjuntos de datos.
+    // std::sort requiere incluir la cabecera <algorithm>.
+    // Esta función ordena el array en su lugar, es decir, modifica el array original
+    // y no devuelve un nuevo array ordenado.
+    // El primer argumento es el inicio del array y el segundo es el final.
+    // En este caso, el final es el puntero al elemento siguiente al último.
+    // std::sort también permite ordenar arrays de otros tipos, como strings o estructuras,
+    // siempre que se defina un criterio de comparación adecuado.
+    // Aquí se ordena el mismo array de enteros usando std::sort.
+    // Se usa el tamaño del array previamente calculado.
+
+    int numerosAOrdenar2[] = {10, 9, 6, 7, 5, 8, 4, 3, 2, 1};
+    std::sort(numerosAOrdenar2, numerosAOrdenar2 + size);
+    std::cout << "\nArray ordenado con std::sort:\n";
+    for(int i = 0; i < size; ++i) {
+        std::cout << numerosAOrdenar2[i] << " ";
+    }
+    std::cout << std::endl;
     return 0;
 }
 
