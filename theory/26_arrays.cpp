@@ -162,10 +162,10 @@ int main() {
     // Llenar el array con un valor específico
     fill(comida, comida + COMIDA_SIZE, "Pizza");
 
-    for(int i = 0; i < COMIDA_SIZE; ++i) {
-        std::cout << comida[i] << " ";
-    }
-    std::cout << std::endl;
+    // Rellenar mitad y mitad del array con diferentes valores
+    std::string comida2[COMIDA_SIZE];
+    fill(comida2, comida2 + COMIDA_SIZE / 2, "Hamburguesa");
+    fill(comida2 + COMIDA_SIZE / 2, comida2 + COMIDA_SIZE, "Pizza");
 }
 
 /*
