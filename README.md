@@ -52,7 +52,8 @@ cplusplus/
 │   ├── 08_first_player.cpp             # Determinar el primer jugador
 │   ├── 09_guess_number.cpp             # Juego de adivinar el número
 │   ├── 10_bank_account.cpp             # Simulación de cuenta bancaria
-│   └── 11_rock_paper_scissors.cpp      # Juego de piedra, papel o tijera
+│   ├── 11_rock_paper_scissors.cpp      # Juego de piedra, papel o tijera
+│   └── 12_tic_tac_toe.cpp              # Juego de tres en raya
 └── README.md                           # Este archivo
 ```
 

@@ -53,7 +53,8 @@ cplusplus/
 │   ├── 08_first_player.cpp             # Determine the first player
 │   ├── 09_guess_number.cpp             # Guess the number game
 │   ├── 10_bank_account.cpp             # Bank account simulation
-│   └── 11_rock_paper_scissors.cpp      # Rock, paper, scissors game
+│   ├── 11_rock_paper_scissors.cpp      # Rock, paper, scissors game
+│   └── 12_tic_tac_toe.cpp              # Tic Tac Toe game
 └── README.md                           # This file
 ```
 
