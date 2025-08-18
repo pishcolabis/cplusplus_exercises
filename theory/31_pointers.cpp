@@ -67,3 +67,8 @@ int main() {
     }
     return 0;
 }
+
+// Nota: En C++, los punteros son una herramienta poderosa, pero también pueden ser peligrosos 
+// si no se usan correctamente.
+// Es importante asegurarse de que los punteros siempre apunten a direcciones de memoria válidas
+// y de que se manejen adecuadamente para evitar fugas de memoria o accesos indebidos
