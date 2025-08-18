@@ -40,6 +40,7 @@ cplusplus/
 │   ├── 29_memory.cpp                   # Direcciones de memoria
 │   ├── 30_reference.cpp                # Pasar por referencia y valor
 │   ├── 31_pointers.cpp                 # Punteros
+│   ├── 32_dynamic_memory.cpp           # Memoria dinámica
 │   └── templates.cpp                   # Plantillas (templates)
 ├── exercises/                          # Ejercicios prácticos
 │   ├── 01_integers.cpp                 # Ejercicios con números enteros
