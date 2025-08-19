@@ -42,7 +42,8 @@ cplusplus/
 │   ├── 31_pointers.cpp                 # Punteros
 │   ├── 32_dynamic_memory.cpp           # Memoria dinámica
 │   ├── 33_recursive_loop.cpp           # Recursividad
-│   └── 34_templates.cpp                # Plantillas (templates o genéricos)
+│   ├── 34_templates.cpp                # Plantillas (templates o genéricos)
+│   └── 35_structs.cpp                  # Estructuras (struct)
 ├── exercises/                          # Ejercicios prácticos
 │   ├── 01_integers.cpp                 # Ejercicios con números enteros
 │   ├── 02_float_and_double.cpp         # Ejercicios con números decimales

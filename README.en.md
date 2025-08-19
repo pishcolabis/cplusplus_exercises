@@ -43,7 +43,8 @@ cplusplus/
 │   ├── 31_pointers.cpp                 # Pointers
 │   ├── 33_recursive_loop.cpp           # Recursive loop
 │   ├── 32_dynamic_memory.cpp           # Dynamic Memory
-│   └── 34_templates.cpp                # Templates (or generics)
+│   ├── 34_templates.cpp                # Templates (or generics)
+│   └── 35_structs.cpp                  # Structs
 ├── exercises/   
 │   ├── 01_integers.cpp                 # Integer number exercises
 │   ├── 02_float_and_double.cpp         # Decimal number exercises
