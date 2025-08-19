@@ -41,6 +41,7 @@ cplusplus/
 │   ├── 29_memory.cpp                   # Memory address
 │   ├── 30_reference.cpp                # Reference and value as argument
 │   ├── 31_pointers.cpp                 # Pointers
+│   ├── 33_recursive_loop.cpp           # Recursive loop
 │   ├── 32_dynamic_memory.cpp           # Dynamic Memory
 │   └── templates.cpp                   # Templates
 ├── exercises/   

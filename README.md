@@ -41,6 +41,7 @@ cplusplus/
 │   ├── 30_reference.cpp                # Pasar por referencia y valor
 │   ├── 31_pointers.cpp                 # Punteros
 │   ├── 32_dynamic_memory.cpp           # Memoria dinámica
+│   ├── 33_recursive_loop.cpp           # Recursividad
 │   └── templates.cpp                   # Plantillas (templates)
 ├── exercises/                          # Ejercicios prácticos
 │   ├── 01_integers.cpp                 # Ejercicios con números enteros
