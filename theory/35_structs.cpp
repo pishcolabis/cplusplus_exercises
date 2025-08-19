@@ -25,6 +25,8 @@ struct Persona {
     float altura;
 };
 
+void printPersona(const Persona& p);
+
 int main() {
     // Declaración de una variable de tipo Persona
     Persona p1;
@@ -42,3 +44,15 @@ int main() {
 // Nota: En C++, las estructuras son similares a las clases, pero por defecto los miembros de una estructura son públicos, 
 // mientras que en una clase son privados. Esto significa que puedes acceder directamente a los miembros
 // de una estructura sin necesidad de métodos getter/setter, aunque es una buena práctica encapsular los datos en clases.
+
+// Esta función toma una referencia constante a un objeto Persona para evitar copias innecesarias.
+// Por defecto, si se pasa como argumento sin referencia, se crea una copia del objeto, lo que puede ser ineficiente para objetos grandes.
+// Es decir, si no se usa como referencia, la estructura se pasa como valor.
+// Como solución, se utiliza una referencia (&) para evitar la copia y permitir el acceso directo a los miembros del objeto.
+// Y como ya es sabido, el uso de const evita modificaciones accidentales al objeto dentro de la función.
+// Esta es una buena práctica para mejorar el rendimiento y la seguridad del código.
+void printPersona(const Persona& p) {
+    cout << "Nombre: " << p.nombre << endl;
+    cout << "Edad: " << p.edad << endl;
+    cout << "Altura: " << p.altura << endl;
+}
