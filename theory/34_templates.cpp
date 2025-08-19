@@ -38,6 +38,12 @@ T max(T a, T b) {
     return (a > b) ? a : b;
 }
 
+// Ejemplo de max si se quisiera usar con diferentes tipos
+template <typename T,typename K>
+auto max(T a, K b) {
+    return (a > b) ? a : b;
+}
+
 int main() {
     int x = 10, y = 20;
     double dx = 5.5, dy = 2.3;
@@ -46,7 +52,7 @@ int main() {
     std::cout << "Max entre " << x << " y " << y << " es: " << max(x, y) << std::endl;
     std::cout << "Max entre " << dx << " y " << dy << " es: " << max(dx, dy) << std::endl;
     std::cout << "Max entre '" << cx << "' y '" << cy << "' es: " << max(cx, cy) << std::endl;
-
+    std::cout << "Max entre " << x << " y " << cy << " es: " << max(x, cy) << std::endl; // al pasar un char por función, se convierte a int en ASCII
     return 0;
 }
 
